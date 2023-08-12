@@ -7,3 +7,10 @@ p {
     font-size: 20px;
     font-family: "Comic Sans MS", sans-serif;
 }
+
+.class1 {
+    background-color: #F1A661;
+    font-size: 16px;
+    font-family: ".AppleSystemUIFont", serif;
+    color: #CFD2CF;
+}
