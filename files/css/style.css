@@ -12,5 +12,173 @@ p {
     background-color: #F1A661;
     font-size: 16px;
     font-family: ".AppleSystemUIFont", serif;
-    color: #CFD2CF;
+    color: #eaeeea;
+}
+
+/*#signUp {
+    background-color: #617ef1;
+}*/
+
+.btn1 {
+    background-color: #c98474;
+    font-size: 25px;
+}
+.btnFont {
+    font-family: "Droid Sans";
+}
+
+/* CSS */
+.button-18 {
+align-items: center;
+background-color: #0A66C2;
+border: 0;
+border-radius: 100px;
+box-sizing: border-box;
+color: #ffffff;
+cursor: pointer;
+display: inline-flex;
+font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+font-size: 16px;
+font-weight: 600;
+justify-content: center;
+line-height: 20px;
+max-width: 480px;
+min-height: 40px;
+min-width: 0px;
+overflow: hidden;
+padding: 0px;
+padding-left: 20px;
+padding-right: 20px;
+text-align: center;
+touch-action: manipulation;
+transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+user-select: none;
+-webkit-user-select: none;
+vertical-align: middle;
+}
+
+.button-18:hover,
+.button-18:focus {
+    background-color: #16437E;
+    color: #ffffff;
+}
+
+.button-18:active {
+    background: #09223b;
+    color: rgb(255, 255, 255, .7);
+}
+
+.button-18:disabled {
+    cursor: not-allowed;
+    background: rgba(0, 0, 0, .08);
+    color: rgba(0, 0, 0, .3);
+}
+
+
+
+/* CSS */
+.button-29 {
+   align-items: center;
+   appearance: none;
+   background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+   border: 0;
+   border-radius: 6px;
+   box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+   box-sizing: border-box;
+   color: #fff;
+   cursor: pointer;
+   display: inline-flex;
+   font-family: "JetBrains Mono",monospace;
+   height: 48px;
+   justify-content: center;
+   line-height: 1;
+   list-style: none;
+   overflow: hidden;
+   padding-left: 16px;
+   padding-right: 16px;
+   position: relative;
+   text-align: left;
+   text-decoration: none;
+   transition: box-shadow .15s,transform .15s;
+   user-select: none;
+   -webkit-user-select: none;
+   touch-action: manipulation;
+   white-space: nowrap;
+   will-change: box-shadow,transform;
+   font-size: 18px;
+}
+
+.button-29:focus {
+    box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.button-29:hover {
+    box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+    transform: translateY(-2px);
+}
+
+.button-29:active {
+    box-shadow: #3c4fe0 0 3px 7px inset;
+    transform: translateY(2px);
+}
+
+
+
+   /* CSS */
+.button-56 {
+   align-items: center;
+   background-color: #fee6e3;
+   border: 2px solid #111;
+   border-radius: 8px;
+   box-sizing: border-box;
+   color: #111;
+   cursor: pointer;
+   display: flex;
+   font-family: Inter,sans-serif;
+   font-size: 16px;
+   height: 48px;
+   justify-content: center;
+   line-height: 24px;
+   max-width: 100%;
+   padding: 0 25px;
+   position: relative;
+   text-align: center;
+   text-decoration: none;
+   user-select: none;
+   -webkit-user-select: none;
+   touch-action: manipulation;
+}
+
+.button-56:after {
+    background-color: #111;
+    border-radius: 8px;
+    content: "";
+    display: block;
+    height: 48px;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    top: -2px;
+    transform: translate(8px, 8px);
+    transition: transform .2s ease-out;
+    z-index: -1;
+}
+
+.button-56:hover:after {
+    transform: translate(0, 0);
+}
+
+.button-56:active {
+    background-color: #ffdeda;
+    outline: 0;
+}
+
+.button-56:hover {
+    outline: 0;
+}
+
+@media (min-width: 768px) {
+    .button-56 {
+        padding: 0 40px;
+    }
 }
